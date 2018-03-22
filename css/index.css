@@ -1,0 +1,49 @@
+body{
+
+}
+.contenedor{
+
+}
+.header{ /* padre */
+display: flex;
+justify-content: center;
+background-color: red;
+
+}
+.head-ico{ /*hijo */
+margin: 10px;
+}
+.volver{ /*hijo-header */
+
+}
+.logo{ /*hijo-header */
+
+}
+.menu{ /*hijo-header */
+
+}
+
+
+.contenedor-home{ /* padre */
+
+}
+.home{ /* padre */
+	justify-content: center;
+	
+}
+.ico-home{ /* hijo-home */
+ 	display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #456;
+  color: white;
+}
+
+
+
+
+#footer{ /* padre */
+background-color: #000;
+color: #fff;
+text-align: center;
+}
